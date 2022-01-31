@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.culcu {
+  background-color: green;
+  width: 70%;
+  padding-bottom: 2rem;
+  display: flex;
+  margin: 13px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.titulo {
+  color: gold;
+  font-size: 2rem;
+}
+
+.player {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  font-size: 2em;
+  margin-top: 1.5em;
+  font-weight: bold;
+}
+
+.text {
+  margin-left: 10em;
+}
+
+.game {
+  display: block;
+  width: 50%;
+  margin-top: 2em;
+  margin-left: 10rem;
+  font-size: 1.5em;
+}
+
+#start {
+  color: green;
+  font-weight: bold;
+  border: none;
+  background-color: gold;
+  width: 60%;
+  padding: 15px;
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#new {
+  color: green;
+  font-weight: bold;
+  border: none;
+  background-color: gold;
+  width: 60%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
